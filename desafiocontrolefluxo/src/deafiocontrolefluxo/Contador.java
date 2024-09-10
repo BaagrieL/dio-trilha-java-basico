@@ -31,7 +31,7 @@ public class Contador {
 
 	static int[] compararNumeros(int[] numeros) throws ParametrosInvalidosException {
 		if(numeros[0] > numeros[1]) {
-			throw new ParametrosInvalidosException("Número 2 deve ser maior que o Número 1");
+			throw new ParametrosInvalidosException("O segundo número deve ser maior que o primeiro!");
 		} else {
 			return numeros;
 		}
